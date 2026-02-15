@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">SNCF</string>
+    <string name="o_souhaitez_vous_aller">Où souhaitez vous aller ?</string>
+    <string name="votre_itin_raire">Votre itinéraire</string>
+    <string name="paris_gare_de_lyon" translatable="false">Paris Gare de Lyon</string>
+    <string name="lyon_part_dieu" translatable="false">Lyon Part Dieu</string>
+    <string name="annuler">Annuler</string>
+    <string name="d_part">Départ :</string>
+    <string name="o_tes_vous">Où êtes-vous ?</string>
+    <string name="arriv_e">Arrivée :</string>
+    <string name="s_lectionner_une_date">Sélectionner une date</string>
+    <string name="aller">Aller :</string>
+    <string name="ajouter_le_retour">Ajouter le retour</string>
+    <string name="retour">Retour :</string>
+    <string name="voir_les_trajets">Voir les trajets</string>
+</resources>

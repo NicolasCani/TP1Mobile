@@ -1,0 +1,76 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E1426"
+    android:fitsSystemWindows="true">
+
+    <View
+    android:id="@+id/topContainer"
+    android:layout_width="0dp"
+    android:layout_height="130dp"
+    android:background="@drawable/card_shadow_bot"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvResultatsTitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/votre_itin_raire"
+        android:textColor="#1BCED1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvResumeDepart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/paris_gare_de_lyon"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvResultatsTitre" />
+
+    <TextView
+        android:id="@+id/tvResumeArrivee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/lyon_part_dieu"
+        android:textColor="#A6FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/tvResumeDepart"
+        app:layout_constraintStart_toStartOf="@id/tvResumeDepart"
+        app:layout_constraintTop_toBottomOf="@id/tvResumeDepart" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTrajets"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="16dp"
+        android:clipToPadding="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topContainer"
+        tools:listitem="@layout/item_trajet"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

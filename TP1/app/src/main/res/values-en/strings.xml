@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Hello World</string>
+    <string name="firstName">First Name</string>
+    <string name="age">Age</string>
+    <string name="compet">Area of expertise</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="sendButton">Send</string>
+    <string name="nom">Last Name</string>
+    <string name="exercice_3">Exercise 3</string>
+
+    <string-array name="metiers_array">
+        <item>Developer</item>
+        <item>Designer</item>
+        <item>Project Manager</item>
+        <item>Student</item>
+        <item>Other...</item>
+    </string-array>
+
+    <string name="dialog_title">Confirmation</string>
+    <string name="dialog_message">Do you really want to submit this information?</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="validation_success">Validation successful!</string>
+    <string name="error_nom">Invalid Last Name</string>
+    <string name="error_prenom">Invalid First Name</string>
+    <string name="error_age">Invalid Age</string>
+    <string name="error_tel">Invalid Phone Number</string>
+
+    <string name="recapitulatif">Summary</string>
+    <string name="retourButton">return</string>
+    <string name="appel">Call</string>
+
+</resources>

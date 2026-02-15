@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="s_lectionnez_une_date">Select a date</string>
+    <string name="nom_de_la_t_che">Task name</string>
+    <string name="ex_rdv_m_decin">e.g., Doctor appointment</string>
+    <string name="heure_de_l_v_nement">Event time</string>
+    <string name="r_p_ter_tous_les_ans_anniversaire_etc">Repeat every year (Birthday, etc.)</string>
+    <string name="nouvel_evenement">New event</string>
+    <string name="enregistrer">Save</string>
+    <string name="evenements_du">Events on %s</string>
+    <string name="suffixe_annuel"> (Yearly)</string>
+    <string name="annuler">Cancel</string>
+</resources>

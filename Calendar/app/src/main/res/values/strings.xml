@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Calendrier</string>
+    <string name="s_lectionnez_une_date">Sélectionnez une date</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="nom_de_la_t_che">Nom de la tâche</string>
+    <string name="ex_rdv_m_decin">Ex: RDV Médecin</string>
+    <string name="heure_de_l_v_nement">Heure de l\'événement</string>
+    <string name="_12_00" translatable="false">12:00</string>
+    <string name="r_p_ter_tous_les_ans_anniversaire_etc">Répéter tous les ans (Anniversaire, etc.)</string>
+    <string name="nouvel_evenement">Nouvel événement</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="evenements_du">Événements du %s</string>
+    <string name="suffixe_annuel"> (Annuel)</string>
+    <string name="annuler">Annuler</string>
+</resources>

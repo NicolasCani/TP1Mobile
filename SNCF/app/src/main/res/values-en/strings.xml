@@ -1,0 +1,13 @@
+<resources>
+    <string name="o_souhaitez_vous_aller">Where do you want to go?</string>
+    <string name="votre_itin_raire">Your itinerary</string>
+    <string name="annuler">Cancel</string>
+    <string name="d_part">Departure:</string>
+    <string name="o_tes_vous">Where are you?</string>
+    <string name="arriv_e">Arrival:</string>
+    <string name="s_lectionner_une_date">Select a date</string>
+    <string name="aller">Outbound:</string>
+    <string name="ajouter_le_retour">Add return</string>
+    <string name="retour">Return:</string>
+    <string name="voir_les_trajets">Search trains</string>
+</resources>

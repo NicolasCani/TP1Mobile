@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name" translatable="false">TP1</string>
+    <string name="hello_world">Bonjour le monde</string>
+    <string name="nom">Nom</string>
+    <string name="nameHint" translatable="false">Cani</string>
+    <string name="hintFirstName" translatable="false">Nicolas</string>
+    <string name="firstName">Prénom</string>
+    <string name="age">Age</string>
+    <string name="hintAge" translatable="false">22</string>
+    <string name="compet">Domaine de compétences</string>
+    <string name="phoneNumber">N° de tel</string>
+    <string name="hintPhoneNumber" translatable="false">06 84 51 75 12</string>
+    <string name="sendButton">Envoyer</string>
+    <string name="exercice_3">Exercice 3</string>
+
+    <string-array name="metiers_array">
+        <item>Développeur</item>
+        <item>Designer</item>
+        <item>Chef de projet</item>
+        <item>Étudiant</item>
+        <item>Autre...</item>
+
+    </string-array>
+
+    <string name="dialog_title">Confirmation</string>
+    <string name="dialog_message">Voulez-vous vraiment valider ces informations ?</string>
+    <string name="confirm">Confirmer</string>
+    <string name="cancel">Annuler</string>
+    <string name="validation_success">Validation effectuée !</string>
+    <string name="error_nom">Nom invalide</string>
+    <string name="error_prenom">Prénom invalide</string>
+    <string name="error_age">Age invalide</string>
+    <string name="error_tel">N° de tel invalide</string>
+
+    <string name="recapitulatif">Récapitulatif</string>
+    <string name="Ok" translatable="false"> OK </string>
+    <string name="retourButton">retour</string>
+    <string name="appel">Appeler</string>
+</resources>

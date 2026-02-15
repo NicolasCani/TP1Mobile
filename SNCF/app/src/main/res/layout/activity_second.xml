@@ -1,0 +1,176 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E1426"
+
+    android:fitsSystemWindows="true">
+
+    <View
+        android:id="@+id/topContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="-20dp"
+        android:background="@drawable/card_shadow_bot"
+        app:layout_constraintBottom_toBottomOf="@id/editArriveeDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="77dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="#00FFFFFF"
+        android:text="@string/annuler"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/backgroundRect"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button2"
+        app:layout_constraintBottom_toBottomOf="@id/editArrivee" />
+
+    <TextView
+        android:id="@+id/labelDepart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d_part"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/editDepart"
+        app:layout_constraintBottom_toBottomOf="@id/editDepart"
+        app:layout_constraintStart_toStartOf="@id/backgroundRect" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editDepart"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/o_tes_vous"
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:paddingStart="110dp"
+        android:completionThreshold="1"
+        android:popupBackground="#1A2236"
+        app:layout_constraintEnd_toEndOf="@id/backgroundRect"
+        app:layout_constraintStart_toStartOf="@id/backgroundRect"
+        app:layout_constraintTop_toTopOf="@id/backgroundRect" />
+
+    <TextView
+        android:id="@+id/labelArrivee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arriv_e"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/editArrivee"
+        app:layout_constraintBottom_toBottomOf="@id/editArrivee"
+        app:layout_constraintStart_toStartOf="@id/backgroundRect" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editArrivee"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="@string/o_souhaitez_vous_aller"
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:background="@android:color/transparent"
+        android:paddingStart="110dp"
+        android:completionThreshold="1"
+        android:popupBackground="#1A2236"
+        app:layout_constraintTop_toBottomOf="@id/editDepart"
+        app:layout_constraintStart_toStartOf="@id/backgroundRect"
+        app:layout_constraintEnd_toEndOf="@id/backgroundRect" />
+
+    <EditText
+        android:id="@+id/editDepartDate"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner_15"
+        android:hint="@string/s_lectionner_une_date"
+        android:textColorHint="#A6FFFFFF"
+        android:textColor="#FFFFFF"
+        android:paddingStart="110dp"
+        android:focusable="false"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="@id/backgroundRect"
+        app:layout_constraintStart_toStartOf="@id/backgroundRect"
+        app:layout_constraintTop_toBottomOf="@id/editArrivee" />
+
+    <TextView
+        android:id="@+id/labelAller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aller"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/editDepartDate"
+        app:layout_constraintBottom_toBottomOf="@id/editDepartDate"
+        app:layout_constraintStart_toStartOf="@id/editDepartDate" />
+
+    <Button
+        android:id="@+id/editArriveeDate"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_corner_15"
+        android:text="@string/ajouter_le_retour"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@id/backgroundRect"
+        app:layout_constraintStart_toStartOf="@id/backgroundRect"
+        app:layout_constraintTop_toBottomOf="@id/editDepartDate" />
+
+    <TextView
+        android:id="@+id/labelRetour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retour"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"
+        android:visibility="gone"
+        android:translationZ="10dp"
+        app:layout_constraintTop_toTopOf="@id/editArriveeDate"
+        app:layout_constraintBottom_toBottomOf="@id/editArriveeDate"
+        app:layout_constraintStart_toStartOf="@id/editArriveeDate" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/rounded_corner_15"
+        android:backgroundTint="#1BCED1"
+        android:padding="15dp"
+        android:text="@string/voir_les_trajets"
+        android:textAllCaps="false"
+
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topContainer" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
